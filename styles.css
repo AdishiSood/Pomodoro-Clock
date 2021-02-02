@@ -1,0 +1,134 @@
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    background-image: url("https://miro.medium.com/max/12032/1*4yRHPXIXm4XGmiBSg8h29Q.jpeg");
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+height:auto;
+
+}
+
+header {
+    margin-bottom: 30px;
+    color: midnightblue;
+}
+
+header h1 {
+    font-weight: bolder;
+    margin-top: 100px;
+    color:midnightblue;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.timer-div {
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 10px;
+}
+
+.timer {
+    font-weight: 700;
+    font-size: 2em;
+    position: relative;
+    top: 30px;
+    text-transform: uppercase;
+    color: #415158;
+    margin-top: 25px;
+}
+
+.time-length,
+.break-length {
+    font-size: 2em;
+    margin: 0;
+}
+
+.time-length,.session{color:midnightblue;}
+
+.break-length,.break {color:midnightblue;}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.flex-item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.flex-container-column {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}
+.session
+{
+    margin-top: 20px;
+}
+.break{
+    margin-top: 20px;
+}
+.flex-item-column {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.session-control,
+.break-control {width: 75px;}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: flex-start;
+    margin: 10px;
+    max-width: 290px;
+    color:mediumblue;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn {
+    font-variant: small-caps;
+    font-weight: 300;
+    background-color: transparent;
+    color: midnightblue;
+    letter-spacing: 1px;
+}
+.btn-sm {border-radius: 50%}
+
+.btn:hover {background-color:midnightblue ;color:midnightblue; border: 1px solid midnightblue;}
+
+.session, .break { font-size: 1em;}
+
+i { color: midnightblue;
+}
+
+.start, .stop, .reset {background-color: transparent; border: none; }
+
+.buttons {margin-top: 30px}
