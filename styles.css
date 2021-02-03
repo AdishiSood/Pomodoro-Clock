@@ -1,29 +1,30 @@
 body {
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: cursive;
     font-weight: 900;
-    background-image: url("https://miro.medium.com/max/12032/1*4yRHPXIXm4XGmiBSg8h29Q.jpeg");
+    background-image: url("https://www.colorbook.io/imagecreator.php?hex=ef5350&width=1920&height=1080&text=%201920x1080");
     background-size: 100% 800px;
     background-repeat: no-repeat;
-height:auto;
+    height:auto;
 
 }
 
 header {
     margin-bottom: 30px;
-    color: midnightblue;
+    color: white;
+    font-family: cursive;
 }
 
 header h1 {
     font-weight: bolder;
     margin-top: 100px;
-    color:midnightblue;
+    color:white;
     font-size: 2em;
 }
 
 a {
     text-decoration: none;
-    color: midnightblue;
+    color: white;
     font-weight: 700;
 }
 
@@ -32,8 +33,8 @@ a:hover {
 }
 
 .timer-div {
-    border: 1px solid midnightblue;
-    color: midnightblue;
+    border: 1px solid white;
+    color: white;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -46,8 +47,9 @@ a:hover {
     position: relative;
     top: 30px;
     text-transform: uppercase;
-    color: #415158;
-    margin-top: 25px;
+    color: black;
+    margin-top: 30px;
+    font-family: cursive;
 }
 
 .time-length,
@@ -56,9 +58,9 @@ a:hover {
     margin: 0;
 }
 
-.time-length,.session{color:midnightblue;}
+.time-length,.session{color:black;}
 
-.break-length,.break {color:midnightblue;}
+.break-length,.break {color:black;}
 
 .flex-container {
     display: flex;
@@ -86,9 +88,11 @@ a:hover {
 .session
 {
     margin-top: 20px;
+    font-family: cursive;
 }
 .break{
     margin-top: 20px;
+    font-family: cursive;
 }
 .flex-item-column {
     order: 0;
@@ -108,7 +112,7 @@ a:hover {
     align-items: flex-start;
     margin: 10px;
     max-width: 290px;
-    color:mediumblue;
+    color:white;
     margin: auto;
     margin-top: 10px;
 }
@@ -117,16 +121,16 @@ a:hover {
     font-variant: small-caps;
     font-weight: 300;
     background-color: transparent;
-    color: midnightblue;
+    color: white;
     letter-spacing: 1px;
 }
 .btn-sm {border-radius: 50%}
 
-.btn:hover {background-color:midnightblue ;color:midnightblue; border: 1px solid midnightblue;}
+.btn:hover {background-color:white ;color:white; border: 1px solid white;}
 
 .session, .break { font-size: 1em;}
 
-i { color: midnightblue;
+i { color: white;
 }
 
 .start, .stop, .reset {background-color: transparent; border: none; }
