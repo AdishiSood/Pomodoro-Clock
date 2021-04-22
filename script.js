@@ -15,9 +15,9 @@ $(function() {
     //change timer color for session or break
     function adjustTimerColor() {
         if (sessionTimer === 0) {
-            $('.timer-div').css('color', 'midnightblue');
+            $('.timer-div').css('color', 'Tomato');
         } else {
-            $('.timer-div').css('color', 'midnightblue');
+            $('.timer-div').css('color', 'hotpink');
         }
     }
 
@@ -158,7 +158,6 @@ $(function() {
                         seconds = "0" + difference;
                     }
                     if (seconds < 1) {
-                        playSound();
                         navigator.vibrate(1000);
                     }
                 }
